@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Learning to Act from Actionless Video through Dense Correspondences"
-date:   2023-09-22 12:00:00 +00:00
-image: /images/404.jpg
+title:  "Flexible Techniques for Differentiable Rendering with 3D Gaussians"
+date:   2023-08-28 22:21:59 +00:00
+image: /images/3dgaussian.jpg
 categories: research
 author: "Po-Chen Ko"
-authors: "<strong>Po-Chen Ko</strong>, Jiayuan Mao, Yilun Du, Shao-Hua Sun, Joshua B. Tenenbaum"
+authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
 venue: "arXiv"
 arxiv: https://arxiv.org/abs/2308.14737
 code: https://github.com/leonidk/fmb-plus
