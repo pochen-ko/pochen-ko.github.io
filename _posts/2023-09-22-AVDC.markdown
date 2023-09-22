@@ -11,4 +11,4 @@ arxiv: https://arxiv.org/abs/2308.14737
 code: https://github.com/leonidk/fmb-plus
 website: https://leonidk.github.io/fmb-plus
 ---
-We show how to leverage conditional video generative model and dense correspondence between frames for robotics control. 
+We developed a video-based robot policy that operates without action annotations, using images to represent actions. This allows for training on RGB videos and deployment across various tasks. Our method proves effective for table-top actions and navigation. Additionally, we introduce an open-source framework for rapid video modeling, enabling training with only 4 GPUs in a day.
