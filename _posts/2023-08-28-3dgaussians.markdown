@@ -5,7 +5,7 @@ date:   2023-08-28 22:21:59 +00:00
 image: /images/3dgaussian.jpg
 categories: research
 author: "Po-Chen Ko"
-authors: "<strong>Leonid Keselman</strong>, Martial Hebert"
+authors: "<strong>Po-Chen Ko</strong>, Jiayuan Mao, Yilun Du, Shao-Hua Sun, Joshua B. Tenenbaum"
 venue: "arXiv"
 arxiv: https://arxiv.org/abs/2308.14737
 code: https://github.com/leonidk/fmb-plus
