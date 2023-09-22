@@ -11,4 +11,4 @@ arxiv: https://arxiv.org/dummy
 code: https://github.com/flow-diffusion
 website: https://flow-diffusion.github.io/
 ---
-We developed a video-based robot policy that operates without action annotations, using images to represent actions. This allows for training on RGB videos and deployment across various tasks. Our method proves effective for table-top actions and navigation. Additionally, we introduce an open-source framework for rapid video modeling, enabling training with only 4 GPUs in a day.
+We developed a robot policy using images, eliminating action annotations. It's trained on RGB videos, effective for table-top tasks and navigation. Our framework allows rapid modeling with just 4 GPUs in a day.
