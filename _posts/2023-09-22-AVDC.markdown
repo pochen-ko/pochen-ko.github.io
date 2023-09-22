@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning to Act from Actionless Video through Dense Correspondences"
 date:   2023-09-22 00:00:00 +00:00
-image: /images/3dgaussian.jpg
+image: /images/404.jpg
 categories: research
 author: "Po-Chen Ko"
 authors: "<strong>Po-Chen Ko</strong>, Jiayuan Mao, Yilun Du, Shao-Hua Sun, Joshua B. Tenenbaum"
