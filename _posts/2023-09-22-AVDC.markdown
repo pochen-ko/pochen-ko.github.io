@@ -7,8 +7,9 @@ categories: research
 author: "Po-Chen Ko"
 authors: "<strong>Po-Chen Ko</strong>, <a href=https://jiayuanm.com/>Jiayuan Mao</a>, <a href=https://yilundu.github.io/>Yilun Du</a>, <a href=https://shaohua0116.github.io/>Shao-Hua Sun</a>, <a href=https://cocosci.mit.edu/josh>Joshua B. Tenenbaum</a>"
 venue: "arXiv"
-arxiv: https://arxiv.org/dummy
-code: https://github.com/flow-diffusion
+arxiv: https://arxiv.org/abs/2310.08576
+code: https://github.com/flow-diffusion/AVDC
 website: https://flow-diffusion.github.io/
+paper: https://flow-diffusion.github.io/AVDC.pdf
 ---
 We developed a robot policy using images, eliminating action annotations. It's trained on RGB videos, effective for table-top tasks and navigation. Our framework allows rapid modeling with just 4 GPUs in a day.

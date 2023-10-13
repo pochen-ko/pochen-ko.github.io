@@ -2,128 +2,113 @@
 <html lang="en">
 
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-E00L9PT3V9"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-E00L9PT3V9');
-  </script>
-  <title>{{ site.name }}</title>
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
 
-  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        gtag('config', 'G-E00L9PT3V9');
+    </script>
+    <title>{{ site.name }}</title>
 
-  <meta name="author" content="{{ site.name }}" />
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
 
-  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
 
 <body>
-  <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tr style="padding:0px">
-      <td style="padding:0px">
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr style="padding:0px">
-            <td style="padding:2.5%;width:60%;vertical-align:middle">
-              <h1>
-                Po-Chen Ko
-              </h1>
-              <p>
-                I am a undergraduate student at <a href="https://www.ntu.edu.tw/">National Taiwan University</a>, advised by <a href="https://shaohua0116.github.io/">Prof. Shao-Hua Sun</a>. I am interested in Computer Vision, Machine Learning, Robotics and Reinforcement Learning. 
-              </p>
-              <p>
-                I visited <a href="mit.edu">MIT</a> early 2023 and finished my first research project work "Learning to Act from Actionless Video through Dense Correspondences" there. 
-              </p>
-              <p style="text-align:center">
-                <a target="_blank" href="mailto:b09901073@ntu.edu.tw"> Email</a> &nbsp;/&nbsp;
-                <a href="https://github.com/leonidk">GitHub</a>
-              </p>
-            </td>
-            <td style="padding:2.5%;width:40%;max-width:40%">
-              <img style="width:100%;max-width:100%" alt="profile photo" src="images/avatar.jpg">
-            </td>
-          </tr>
-        </table>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
-            <td style="padding:2.5%;width:100%;vertical-align:middle">
-              <h2>Research</h2>
-              <p>
-                I am currently exploring video generative model as control policy for robotics. 
-              </p>
-            </td>
-          </tr>
-        </table>
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-
-          {% for post in site.posts %}
-          {% for cat in post.categories %}
-          {% if cat == 'research' %}
-          <tr>
-            <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
-              <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
-            </td>
-            <td style="padding:2.5%;width:75%;vertical-align:middle">
-              <h3>{{post.title}}</h3>
-              <br>
-              {{post.authors}}
-
-              <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
-              <br>
-              {% if post.arxiv %}
-              <a href="{{post.arxiv}}">arxiv</a> /
-              {% endif %}
-              {% if post.video %}
-              <a href="{{post.video}}">video</a> /
-              {% endif %}
-              {% if post.code %}
-              <a href="{{post.code}}">code</a> /
-              {% endif %}
-              {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
-              {% endif %}
-              {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
-              {% endif %}
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
-              {% if post.youtube %}
-              <a href="{{post.youtube}}">youtube</a> /
-              {% endif %}
-              <p></p>
-              {{ post.excerpt }}
-            </td>
-          </tr>
-          {% endif %}
-          {% endfor %}
-          {% endfor %}
-        </table>
-        <br>
-        <br>
-
-        <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-          <tr>
+    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+        <tr style="padding:0px">
             <td style="padding:0px">
-              <br>
-              <p style="text-align:center;font-size:small;">
-                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
-              </p>
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr style="padding:0px">
+                        <td style="padding:2.5%;width:60%;vertical-align:middle">
+                            <h1>
+                                Po-Chen Ko
+                            </h1>
+                            <p>
+                                I am a undergraduate student at <a href="https://www.ntu.edu.tw/">National Taiwan University</a>, advised by <a href="https://shaohua0116.github.io/">Prof. Shao-Hua Sun</a>. I am interested in Computer Vision, Machine Learning,
+                                Robotics and Reinforcement Learning.
+                            </p>
+                            <p>
+                                I was fortunate to visit <a href="https://cocosci.mit.edu/josh">Josh Tenenbaum</a>’s <a href="https://cocosci.mit.edu/">lab</a> at MIT in 2023 Spring semester, collaborating with <a href="https://jiayuanm.com/">Jiayuan Mao</a>                                and
+                                <a href="https://yilundu.github.io/"></a>Yilun Du</a> on Learning to Act from Actionless Video through Dense Correspondences.
+                            </p>
+                            <p style="text-align:center">
+                                <a target="_blank" href="mailto:b09901073@ntu.edu.tw"> Email</a> &nbsp;/&nbsp;
+                                <a href="https://github.com/kbkbowo">GitHub</a>
+                            </p>
+                        </td>
+                        <td style="padding:2.5%;width:40%;max-width:40%">
+                            <img style="width:100%;max-width:100%" alt="profile photo" src="images/avatar.jpg">
+                        </td>
+                    </tr>
+                </table>
+
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:2.5%;width:100%;vertical-align:middle">
+                            <h2>Research</h2>
+                            <p>
+                                I am currently exploring video generative model as control policy for robotics.
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+
+                    {% for post in site.posts %} {% for cat in post.categories %} {% if cat == 'research' %}
+                    <tr>
+                        <td style="padding:2.5%;width:25%;vertical-align:middle;min-width:120px">
+                            <img src="/tn{{post.image}}" alt="project image" style="width:auto; height:auto; max-width:100%;" />
+                        </td>
+                        <td style="padding:2.5%;width:75%;vertical-align:middle">
+                            <h3>{{post.title}}</h3>
+                            <br> {{post.authors}}
+
+                            <br>
+                            <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+                            <br> {% if post.arxiv %}
+                            <a href="{{post.arxiv}}">arxiv</a> / {% endif %} {% if post.video %}
+                            <a href="{{post.video}}">video</a> / {% endif %} {% if post.code %}
+                            <a href="{{post.code}}">code</a> / {% endif %} {% if post.poster %}
+                            <a href="{{post.poster}}">poster</a> / {% endif %} {% if post.slides %}
+                            <a href="{{post.slides}}">slides</a> / {% endif %} {% if post.website %}
+                            <a href="{{post.website}}">website</a> / {% endif %} {% if post.youtube %}
+                            <a href="{{post.youtube}}">youtube</a> / {% endif %}
+                            <p></p>
+                            {{ post.excerpt }}
+                        </td>
+                    </tr>
+                    {% endif %} {% endfor %} {% endfor %}
+                </table>
+                <br>
+                <br>
+
+                <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
+                    <tr>
+                        <td style="padding:0px">
+                            <br>
+                            <p style="text-align:center;font-size:small;">
+                                Design and source code from <a style="font-size:small;" href="https://jonbarron.info">Jon Barron's website</a>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
             </td>
-          </tr>
-        </table>
-      </td>
-    </tr>
-  </table>
+        </tr>
+    </table>
 </body>
 
 </html>
-
