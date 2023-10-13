@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Learning to Act from Actionless Video through Dense Correspondences"
-date:   2023-09-22 00:00:00 +00:00
+date:   2023-10-12 00:00:00 +00:00
 image: /images/avdc_teaser.png
 categories: research
 author: "Po-Chen Ko"
