@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Context-Aware Replanning with Pre-Explored Semantic Map for Object Navigation"
+title:  "NTUEE Undergraduate Innovation Award"
 description: "1st. prize"
 categories: award
 author: "Po-Chen Ko"
@@ -8,5 +8,4 @@ author: "Po-Chen Ko"
 # website: https://care-maps.github.io
 # paper: /pdfs/CARe.pdf
 ---
-123
 
