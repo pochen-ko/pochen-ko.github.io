@@ -14,3 +14,4 @@ paper: /pdfs/AVDC.pdf
 video: https://github.com/flow-diffusion/flow-diffusion.github.io/assets/43379407/9aa380df-0ff7-4c41-af2d-d67d23c53e72
 ---
 We developed a robot policy using images, which can be trained without action annotations. It's trained on RGB videos, effective for table-top tasks and navigation. Our framework also allows rapid modeling with just 4 GPUs in a day.
+
