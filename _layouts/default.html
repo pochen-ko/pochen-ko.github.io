@@ -102,6 +102,7 @@
                             {% for post in site.posts %} {% for cat in post.categories %} {% if cat == 'award' %}
                             <h3>{{post.title}}</h3>
                             <p>{{post.description}}</p>
+                            {% endif %} {% endfor %} {% endfor %}
                         </td>
                     </tr>
                 </table>
