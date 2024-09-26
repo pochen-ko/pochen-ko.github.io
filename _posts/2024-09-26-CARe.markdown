@@ -1,16 +1,14 @@
 ---
 layout: post
 title:  "Context-Aware Replanning with Pre-Explored Semantic Map for Object Navigation"
-date:   2024-09-27 00:00:00 +00:00
+date:   2024-09-26 00:00:00 +00:00
 image: /images/care_teaser.png
 categories: research
 author: "Po-Chen Ko"
 authors: "<a href=https://htsucml.github.io/>Hung-Ting Su</a>, Ching-Yuan Chen, <strong>Po-Chen Ko*</strong>, <a href=https://www.cmlab.csie.ntu.edu.tw/~jiafongyeh>Jia-Fong Yeh</a>, <a href=https://aliensunmin.github.io/>Min Sun</a>, <a href=https://winstonhsu.info/>Winston H. Hsu</a>""
 venue: "CoRL 2024"
 arxiv: https://arxiv.org/abs/2409.04837
-# code: https://github.com/flow-diffusion/AVDC
 website: https://care-maps.github.io/
 paper: /pdfs/CARe.pdf
-# video: https://github.com/flow-diffusion/flow-diffusion.github.io/assets/43379407/9aa380df-0ff7-4c41-af2d-d67d23c53e72
 ---
 We improved VLM-based semantic maps for Object Navigaiton by leveraging uncertainty information from the map to aid candidate selection.
