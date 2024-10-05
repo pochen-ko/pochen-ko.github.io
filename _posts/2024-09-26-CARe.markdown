@@ -5,7 +5,7 @@ date:   2024-09-26 00:00:00 +00:00
 image: /images/care_teaser.png
 categories: research
 author: "Po-Chen Ko"
-authors: "<a href=https://htsucml.github.io/>Hung-Ting Su*</a>, Ching-Yuan Chen*, <strong>Po-Chen Ko*</strong>, <a href=https://www.cmlab.csie.ntu.edu.tw/~jiafongyeh>Jia-Fong Yeh</a>, <a href=https://aliensunmin.github.io/>Min Sun</a>, <a href=https://winstonhsu.info/>Winston H. Hsu</a>"
+authors: "<strong>Po-Chen Ko*</strong>, <a href=https://htsucml.github.io/>Hung-Ting Su*</a>, Ching-Yuan Chen*, <a href=https://www.cmlab.csie.ntu.edu.tw/~jiafongyeh>Jia-Fong Yeh</a>, <a href=https://aliensunmin.github.io/>Min Sun</a>, <a href=https://winstonhsu.info/>Winston H. Hsu</a>"
 venue: "CoRL 2024"
 arxiv: https://arxiv.org/abs/2409.04837
 website: https://care-maps.github.io
