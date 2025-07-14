@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Implicit State Estimation via Video Replanning"
+date:   2025-07-12 00:00:00 +00:00
+image: /images/care_teaser.png
+categories: research
+author: "Po-Chen Ko"
+venue: "World Modeling workshop <strong>(Best Paper)</strong>"
+website: https://ise-video.github.io
+paper: /pdfs/ISE.pdf
+---
