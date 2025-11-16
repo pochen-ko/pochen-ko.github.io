@@ -1,11 +1,10 @@
 ---
 layout: post
-title:  "NTUEE Undergraduate Innovation Award"
-description: "1st. prize / Department-wide"
+title:  "NTU ML2021Spring Speaker Classification Competition"
+description: "1st Place / 1170 participants"
 categories: achievement
 author: "Po-Chen Ko"
 # arxiv: https://arxiv.org/abs/2409.04837
 # website: https://care-maps.github.io
 # paper: /pdfs/CARe.pdf
 ---
-
