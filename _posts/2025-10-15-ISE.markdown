@@ -5,7 +5,7 @@ date:   2025-10-15 00:00:00 +00:00
 image: /images/ise.png
 categories: research
 author: "Po-Chen Ko"
-authors: '<strong>Po-Chen Ko</strong>, <a href=https://jiayuanm.com/>Jiayuan Mao</a>, Yu-Hsiang Fu, Hsien-Jeng Yeh, <a href="https://openreview.net/profile?id=~Chu-Rong_Chen1">Chu-Rong Chen</a>, <a href=https://www.cs.cornell.edu/~weichiu/>Wei-Chiu Ma</a>, <a href=https://yilundu.github.io/>Yilun Du</a>, <a href=https://shaohua0116.github.io/>Shao-Hua Sun</a>'
+authors: '<strong>Po-Chen Ko</strong>, <a href=https://jiayuanm.com/>Jiayuan Mao</a>, <a href="https://openreview.net/profile?id=~Yu-Hsiang_Fu1">Yu-Hsiang Fu</a>, <a href="https://openreview.net/profile?id=~Hsien-Jeng_Yeh2">Hsien-Jeng Yeh</a>, <a href="https://openreview.net/profile?id=~Chu-Rong_Chen1">Chu-Rong Chen</a>, <a href=https://www.cs.cornell.edu/~weichiu/>Wei-Chiu Ma</a>, <a href=https://yilundu.github.io/>Yilun Du</a>, <a href=https://shaohua0116.github.io/>Shao-Hua Sun</a>'
 venue: "Under Submission<br>ICML Workshop on Building Physically Plausible World Models 2025 <strong>(Best paper)</strong>"
 paper: /pdfs/ISE.pdf
 # video: 
