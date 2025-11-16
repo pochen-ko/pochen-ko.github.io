@@ -6,7 +6,7 @@ image: /images/sof.png
 categories: research
 author: "Po-Chen Ko"
 authors: '<a href=https://hc-fang.github.io/>Hung-Chieh Fang*,</a>, <a href="https://khhung-906.github.io/">Kuo-Han Hung</a>*, <a href="https://openreview.net/profile?id=~Chu-Rong_Chen1">Chu-Rong Chen</a>, <a href="https://openreview.net/profile?id=~Po-Jung_Chou1">Po-Jung Chou</a>, <a href="https://yck1130.github.io/">Chun-Kai Yang</a>, <strong>Po-Chen Ko</strong>, <a href="https://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Wang</a>, <a href="https://kristery.github.io/">Yueh-Hua Wu</a>, <a href="https://minhungchen.netlify.app/">Min-Hung Chen</a>, <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>'
-venue: "ICML Workshop on Building Physically Plausible World Models 2025 <br>Under Submission"
+venue: "Under Submission<br>ICML Workshop on Building Physically Plausible World Models 2025"
 paper: /pdfs/sof.pdf
 ---
-We develop Skill Abstraction from Optical Flow (SOF), a framework that learns reusable robot skills directly from action-free videos. By using optical flow as a surrogate for action, the system extracts and composes skills without relying on labeled datasets. It plans in a learned skill space and translates flow-based plans into executable actions, improving multitask and long-horizon performance using only raw visual data.
+We develop a framework that learns and composes robot skills directly from action-free videos using optical flow as an action substitute, enabling skill-space planning and strong multitask and long-horizon performance without labeled data.
