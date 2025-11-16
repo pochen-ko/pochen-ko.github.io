@@ -5,7 +5,7 @@ date:   2025-10-14 00:00:00 +00:00
 image: /images/sof.png
 categories: research
 author: "Po-Chen Ko"
-authors: '<a href=https://hc-fang.github.io/>Hung-Chieh Fang*,</a>, <a href="https://khhung-906.github.io/">Kuo-Han Hung</a>*, <a href="https://openreview.net/profile?id=~Chu-Rong_Chen1">Chu-Rong Chen</a>, <a href="https://openreview.net/profile?id=~Po-Jung_Chou1">Po-Jung Chou</a>, <a href="https://yck1130.github.io/">Chun-Kai Yang</a>, <strong>Po-Chen Ko</strong>, <a href="https://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Wang</a>, <a href="https://kristery.github.io/">Yueh-Hua Wu</a>, <a href="https://minhungchen.netlify.app/">Min-Hung Chen</a>, <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>'
+authors: '<a href=https://hc-fang.github.io/>Hung-Chieh Fang*</a>, <a href="https://khhung-906.github.io/">Kuo-Han Hung</a>*, <a href="https://openreview.net/profile?id=~Chu-Rong_Chen1">Chu-Rong Chen</a>, <a href="https://openreview.net/profile?id=~Po-Jung_Chou1">Po-Jung Chou</a>, <a href="https://yck1130.github.io/">Chun-Kai Yang</a>, <strong>Po-Chen Ko</strong>, <a href="https://vllab.ee.ntu.edu.tw/ycwang.html">Yu-Chiang Wang</a>, <a href="https://kristery.github.io/">Yueh-Hua Wu</a>, <a href="https://minhungchen.netlify.app/">Min-Hung Chen</a>, <a href="https://shaohua0116.github.io/">Shao-Hua Sun</a>'
 venue: "Under Submission<br>ICML Workshop on Building Physically Plausible World Models 2025"
 paper: /pdfs/sof.pdf
 ---
